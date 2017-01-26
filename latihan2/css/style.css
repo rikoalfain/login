@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+html, body{
+	height:100%;
+}
+body{
+	text-align:left;
+	color:#fff;
+	background-color:#000;
+	font-size:100%;
+	font-family:"trebuchet MS",Helvetica, sans-serif;
+}
+
+a{
+	color:#d62c2c;
+}
+
+a:linked, a:visited{
+	color:#d61c1c;
+}
+a:hover, a:active{
+	color: #fff;
+}
+
+.mainheader{
+	background-image: url('/images/wave.gif');
+		min-heighat:70px;
+		background-color:#000;
+	margin-left:auto;
+	margin-right: auto;
+	width: 1300px;	
+}
+

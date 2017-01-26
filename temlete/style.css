@@ -1,0 +1,50 @@
+#body{
+	width:960px;
+	margin: auto;
+	padding: 30px;
+}
+#header{
+	margin: 0 auto;
+	width: 960px;
+	height: 150px;
+	background-color: #600666;
+}
+#judul{
+	font-size: 40px;
+	text-align: center;
+	top: 50px;
+	position: relative;
+	color: #f4fd05;
+}
+#container{
+	margin: 5px auto;
+	width: 960px;
+	background-color: #5e045b;
+}
+#kiri{
+	float: left;
+	width: 670px;
+	margin: 10px;
+	padding: 0 10px;
+	background-color: #d7a6ee;
+}
+#kanan{
+	float: right;
+	width: 250px;
+	height: 500px;
+	background-color: #cf51e2;
+}
+#footer{
+	margin: 0 auto;
+	width: 250px;
+	line-height: 50px;
+	background-color: #510f55;
+}
+#copyright{
+	text-align: center;
+	color: #ffffff;
+}
+.clear
+{
+	clear: both;
+}

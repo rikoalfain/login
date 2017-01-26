@@ -1,0 +1,51 @@
+body{
+	background: #999;
+	font-family: verdana, helvetica;	
+	font-size:14px;
+}
+ 
+.menu{
+	margin:0 auto;
+	width:900px;
+	height: 45px;
+	border-top:5px solid #dd6600;
+	background:#fff;
+	font-size:16px;
+	text-align:center;
+}
+ 
+.header{
+	margin:0 auto;
+	width:900px;
+	height:120px;
+	background:url('header.png') no-repeat;
+}
+ 
+.body {
+	margin:0 auto;
+	width:900px;
+	background:#fefefe;
+}
+ 
+.body-left{
+	float:left;
+	width:250px;
+	margin:10px 0;
+}
+ 
+.body-right{
+	float:left;
+	border-left:1px solid #999;
+	margin:10px 0;
+}
+ 
+.footer{
+	margin:0 auto;
+	width:900px;
+	height:25px;
+	padding-top:20px;
+	text-align:center;
+	background:#fff;
+	border-bottom:3px solid #dd6600;
+	padding-top:8px;
+}

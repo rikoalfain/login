@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:open sans;
+}
+#header{
+	width:100%;
+	height:10%;
+	font-size:30px;
+	background-color:blue;
+}
+#logo{
+	
+}

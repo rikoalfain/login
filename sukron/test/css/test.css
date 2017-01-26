@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"open sans";
+}
+div#header{
+	width:100%;
+	height:50px;
+	background-color:#69bae4;
+}
+a{
+	text-decoration: none;
+}
+#header.logo a{
+	
+}
+#header.logo a span{
+	font-weight:300;
+}
+.slidebar{
+	width: 15%;
+	height: 10%;
+	margin-left:0;
+	
+}
+#{
+	font-size:2.4em;
+}
+#head{
+	font-size:2,4em;
+	color:#69bae4;
+	width:100%;
+	height:10%;
+	background-color:#69bae4;
+}
+.logo{
+	float:left;
+	margin-top:4px;
+}
+
+#tampil{
+	text-shadow: 2px 2px #1E90FF;
+	text-decoration:none;
+	width:15%;
+	height: 100%;
+	border: 2px solid white;
+	margin-top:auto;
+	background:#B0E0E6;
+	float:left;
+}
+div#head{
+	background-color:#00CCFF;
+}
+a{
+	text-decoration:none;
+	direction:initial;
+}
+a#head{
+	text-decoration:none;
+}
+#isi{
+	width:100%;
+	height:100%;
+	background-color:#00FFFF;
+	left:right;
+}
+#see{
+	background:#E0FFFF;
+	
+}
+ul#nav li{
+	list-style:none;
+}
+ul#nav li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 0.8em;
+	border-bottom: 1px solid #0a0a0a;
+	-webkit-transition: 0.2s;
+	-o -transition : 0.2s;
+	transition: 0.2s;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ul#nav li a:hover{
+	background-color: #00bfff;
+	padding-right:4px;
+	font-weight: 100%;
+}
+.conten{
+	font-size:0.73em;
+	width: 100%;
+	height: 100%;
+	margin-left:0;
+	border:1px;
+}
+#box{
+	margin-top:15px;
+	margin-left:10%;
+}
+#box.judul{
+	color:#fff;
+	text-shadow:0px 0px 1px #ddd;
+	background-color:#2980b9;
+	padding:5px;
+}
+div#box.isi{
+	padding:15px;
+	background-color:#69bae4;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+a.mobile{
+	display:block;
+	color:#fff;
+	text-align:center;
+	background-color: #00FFFF;
+	padding:7px;
+}
+a.mobile:active{
+	background-color: #00bfff;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+	float: right;
+}
+@media only screen and (min-width:320px)
+{
+	a.mobile{
+		display:none;
+		
+	}
+	.slidebar{
+		height:100%;
+		
+	}
+}
+@media only screen and (max-widht:320px)
+{
+	.slidebar{
+		width:100%;
+		;
+	}
+	.conten{
+		margin-left:0px;
+	}
+}
